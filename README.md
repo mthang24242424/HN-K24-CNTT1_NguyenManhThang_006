@@ -29,18 +29,6 @@ Mã nguồn được tổ chức hoàn chỉnh theo mô hình layered architectu
 
 ---
 
-# GIẢI THÍCH VỀ CÁC TỆP `.class`
-
-### 1. File `.class` là gì?
-Các tệp `.class` là các tệp mã nguồn Java đã được trình biên dịch Java (`javac`) dịch từ mã nguồn viết bằng ngôn ngữ Java (tệp `.java`) thành **bytecode**.
-Bytecode này không dành cho con người đọc trực tiếp mà dành cho Máy ảo Java (JVM - Java Virtual Machine) thực thi khi ứng dụng được khởi chạy bằng lệnh `java`.
-
-### 2. Tại sao có thể xóa bỏ chúng?
-*   **Không phải mã nguồn gốc:** Chúng được sinh ra tự động trong quá trình build/biên dịch. Khi chạy dự án, hệ thống build sẽ tự động biên dịch lại các tệp `.java` thành các tệp `.class` tương ứng.
-*   **Tránh xung đột và rác mã nguồn:** Khi đưa mã nguồn lên các hệ thống quản lý phiên bản như Git, các tệp `.class` thường được bỏ qua (được liệt kê trong `.gitignore`) để tránh làm nặng kho chứa và tránh xung đột biên dịch giữa các máy tính khác nhau.
-*   **Cách xóa:** Đã tiến hành xóa bỏ toàn bộ các tệp `.class` khỏi thư mục dự án để làm sạch cấu trúc thư mục làm bài.
-
----
 
 # PHẦN 1: TÁI CẤU TRÚC HỆ THỐNG ĐỂ DỄ MỞ RỘNG
 
