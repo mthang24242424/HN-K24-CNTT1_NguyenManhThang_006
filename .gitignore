@@ -1,0 +1,13 @@
+# Java class files
+*.class
+
+# Mobile Tools App (Android Studio, Intellij, etc.)
+.idea/
+*.iml
+out/
+gen/
+
+# Build folders
+target/
+build/
+bin/
