@@ -304,5 +304,3 @@ erDiagram
 ### C. Hình ảnh sơ đồ ERD hoàn chỉnh
 Sơ đồ ERD đã được xuất ra định dạng ảnh và lưu trữ trong tài liệu nộp bài tại [docs/erd_diagram.png](docs/erd_diagram.png).
 
----
-*Báo cáo kết thúc. Toàn bộ yêu cầu của Đề tài DE006 đã được hoàn thành đầy đủ, kiểm thử chạy đúng và dọn dẹp thư mục nguồn sạch sẽ.*
